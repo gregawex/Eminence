@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1073237944
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c9b0f9b07cdde665745697c82e0156bc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 35e12b10c31770da12e016ff577374f1
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b81ddd710499e242abfed4bbc7cfaa3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c6ac863939e679d4198170735a8b75b6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/cardA.png
+- Assets/Resources/Cards/3ff179a2-f05f-48fa-be4b-17f1ad13e5f6.asset
+- Assets/Resources/Cards/Default.asset
+Dependencies: []
