@@ -255,7 +255,7 @@ public static class GregPacker
 		}
 	}
 
-	 static PackObject [] DoUnpack(PackMode mode, string filename, string path, string passedInJSON = null)
+	static PackObject [] DoUnpack(PackMode mode, string filename, string path, string passedInJSON = null)
 	{
 		//ioMode = true;
 		_isUnpacking = true;

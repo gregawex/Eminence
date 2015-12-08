@@ -7,12 +7,6 @@ public class Inventory : PackObject
 {
 
 	[Pack]
-	public int HardCurrency { get; set; }
-
-	[Pack]
-	public int SoftCurrency { get; set; }
-
-	[Pack]
-	List<CardPack> CardPacks { get; set; }
+	public List<CardPack> CardPacks { get; set; }
 
 }

@@ -1,8 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\LittleKickers\LittleKickers\Assets\Editor\PlayerItem.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Krill\PlayMaker Actions\CG_SetupCardGame.cs">
     <Files>
-      <File FileName="..\..\LittleKickers\LittleKickers\Assets\Editor\PlayerItem.cs" Line="20" Column="21" />
+      <File FileName="Assets\Scripts\UTIL\CardSceneManager.cs" Line="21" Column="3" />
+      <File FileName="Assets\Scripts\CardGame\CGPlayer.cs" Line="29" Column="38" />
+      <File FileName="Assets\Scripts\Krill\Profile\Profile.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Krill\Profile\Inventory.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UTIL\GregPacker.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Krill\PlayMaker Actions\CG_SetupCardGame.cs" Line="50" Column="19" />
+      <File FileName="Assets\Scripts\CardGame\CardRoster.cs" Line="1" Column="1" />
+      <File FileName="Assets\Editor\CardListEditor.cs" Line="30" Column="66" />
+      <File FileName="Assets\Scripts\CardGame\CardInstance.cs" Line="24" Column="56" />
+      <File FileName="Assets\Scripts\CardGame\CardPip.cs" Line="8" Column="21" />
+      <File FileName="Assets\Scripts\UTIL\Constants.cs" Line="26" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

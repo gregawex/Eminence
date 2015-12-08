@@ -18,9 +18,12 @@ public enum ActorEvent { DAMAGE }
 public enum PopupButtonSetup { SINGLE, TWO_CHOICE }
 
 public enum BundleLoading {EDITOR, REMOTE }
-
  
 public enum _State { BEGIN, EXECUTE, END }
+
+public enum CGResultMethod { LOCAL, SERVER }
+
+public enum PlayerColor {RED, BLUE }
 
 public class Constants 
 {

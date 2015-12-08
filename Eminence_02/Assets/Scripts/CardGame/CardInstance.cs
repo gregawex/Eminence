@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 
@@ -9,13 +9,45 @@ public class CardInstance : MonoBehaviour {
 
 	public CardItem cardItem;
 
-	// Use this for initialization
-	void Start () {
-	
+	public CardPip top, left, right, bottom;
+
+	public void Init(CardItem cardItem, PlayerColor currentColor)
+	{
+		this.cardItem = cardItem;
+
+		SetupPip(top, 		cardItem.topValue, 		currentColor);
+		SetupPip(bottom, 	cardItem.bottomValue, 	currentColor);
+		SetupPip(left, 		cardItem.leftValue, 	currentColor);
+		SetupPip(right, 	cardItem.rightValue, 	currentColor);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void SetupPip(CardPip pip, int val, PlayerColor color)
+	{
+		if(val >= 1 && val < 10)
+			pip.text.text = val.ToString();
+		else if(val == 10)
+			pip.text.text = "A";
+		else
+			Debug.LogError ("Invalid card value ["+val+"] in cardItem ["+cardItem.guid+"]");
+
+		 
+		switch(color)
+		{
+		case PlayerColor.RED:
+			pip.image.color = Color.red;
+			break;
+		case PlayerColor.BLUE:
+			pip.image.color = Color.blue;
+			break;
+		}
 	}
+
+	public void Clicked()
+	{
+		Debug.Log ("Clicked");
+	}
+
+
+	 
+ 
 }

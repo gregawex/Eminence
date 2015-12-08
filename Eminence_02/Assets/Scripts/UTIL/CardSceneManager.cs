@@ -4,17 +4,35 @@ using System.Collections;
 public class CardSceneManager : MonoBehaviour 
 {
 
-	public PlayerCardSetup player_blue, player_red;
+	public CardInstance tempCard;
 
-	// Use this for initialization
-	void Start () {
-	
+	public static CardSceneManager Instance { get ; private set; }
+
+	public CGPlayer Player_RED { get; private set; }
+	public CGPlayer Player_BLU { get; private set; }
+
+	public Transform blu_holder, red_holder;
+
+	void Awake()
+	{
+		Instance = this;
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	void Start () 
+	{
+
+	}
+
+	void Update () 
+	{
 	
 	}
 
-	//public void InitGame(Pr
+	public void Init(CGPlayer player_red, CGPlayer player_blu)
+	{
+		this.Player_RED = player_red;
+		this.Player_BLU = player_blu;
+	}
+
+
 }

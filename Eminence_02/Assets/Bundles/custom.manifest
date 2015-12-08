@@ -1,25 +1,16 @@
 ManifestFileVersion: 0
-CRC: 890636848
+CRC: 3069313066
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bb493151103a85c47db73400fa5e5248
+    Hash: 95512d0a9566e634f20de64a52a583c3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 22f3d561ff7a6dcd5fd7e188f1dfbc8c
+    Hash: 0fd99c5e9ad8f0f80da6ba03142e9c82
 HashAppended: 0
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4b81ddd710499e242abfed4bbc7cfaa3, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: c6ac863939e679d4198170735a8b75b6, type: 3}
-- Class: 115
-  Script: {instanceID: 0}
 Assets:
-- Assets/Resources/Cards/Custom.asset
-- Assets/Resources/Cards/530f5dc6-ca67-4f84-9988-9f9d017a0d15.asset
 - Assets/Textures/Cards/Promos/Aeterna_3_Maximus.jpg
-- Assets/Resources/Cards/90a1c338-5d8d-462a-93e7-207ee761368e.asset
 Dependencies: []

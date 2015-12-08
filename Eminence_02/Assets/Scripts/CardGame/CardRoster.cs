@@ -27,4 +27,22 @@ public class CardRoster
 			}
 		}
 	}
+
+	public CardItem [] GetCardItems(string [] tokens)
+	{
+		List<CardItem> list = new List<CardItem>();
+
+		foreach(string str in tokens)
+		{
+			if(cards.ContainsKey(str))
+			{
+				list.Add(cards[str]);
+			}
+			else
+				Debug.LogError("Requested card not present in CardRoster ["+str+"]");
+		}
+
+		return list.ToArray();
+
+	}
 }

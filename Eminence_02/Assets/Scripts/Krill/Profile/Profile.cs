@@ -25,6 +25,13 @@ public class Profile : PackObject
 	[Pack]
 	public PersonalInfo Personal { get; set; }
 
+	[Pack]
+	public Wallet Wallet { get; set; }
+
+	//TODO: Implement game prgress. All stats, save points etc.
+	//[Pack]
+	//public GameProgress Progress { get; set; }
+
 
 	public static Profile ProcessJson(string profileJson)
 	{
